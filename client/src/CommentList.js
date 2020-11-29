@@ -18,6 +18,5 @@ export default ({ comments }) => {
 
     return <li key={comment.id}>{content}</li>;
   });
-
   return <ul>{renderedComments}</ul>;
 };
